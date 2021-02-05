@@ -1,0 +1,90 @@
+@import './assets/themes/theme.scss';
+
+body
+{
+  font-family: Arial, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.mainContent
+{
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.tooltip
+{
+  color: #333333;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+a.main
+{
+  text-decoration: none;
+}
+
+a.main:hover
+{
+  text-decoration: underline;
+}
+
+.mt6
+{
+  margin-top: 6px;
+}
+
+.mt10
+{
+  margin-top: 10px;
+}
+
+.mt20
+{
+  margin-top: 20px;
+}
+
+.mr8
+{
+  margin-right: 8px;
+}
+
+.mr24
+{
+  margin-right: 24px;
+}
+
+.vcenter
+{
+  display: flex;
+  align-items: center;
+}
+
+.toolbar-spacer
+{
+  flex: 1 1 auto;
+}
+
+.mat-toolbar
+{
+  font-size: 14px;
+  font-weight: bold;
+  color: #666;
+  background-color: #abcdef;
+}
+
+.mat-select
+{
+  max-width: 120px;
+}
+
+.mat-toolbar-row
+{
+  align-items: center;
+}
+
+mat-icon:hover
+{
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+<div style="width:602px">
+  <mat-toolbar style="width: 602px;">
+    <mat-toolbar-row>
+      <span>Interactive Convex Hull</span>
+
+      <span class="toolbar-spacer"></span>
+      <mat-icon (click)="onClear()" class="mr24" matTooltip="Clear All Drawings">clear_all</mat-icon>
+      <mat-icon (click)="onGraham()" class="mr24" matTooltip="Graham Scan">border_outer</mat-icon>
+      <mat-icon (click)="onMelkman()" class="mr24" matTooltip="Melkman's Algorithm">border_all</mat-icon>
+
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <canvas width="600" height="600" style="border: 1px solid #cccccc;" id="fabricSurface"></canvas>
+  <div class="mt6">
+    <app-message [message]="instructions"></app-message>
+    <app-message [message]="summary"></app-message>
+  </div>
+</div>
