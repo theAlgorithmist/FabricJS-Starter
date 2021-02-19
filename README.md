@@ -1,6 +1,6 @@
 # FabricjsStarter
 
-This is the code distribution to an upcoming Medium article for the ng-conf blog.  The code serves as an introduction to using the [Fabric JS](http://fabricjs.com/) library with Angular.  It also illustrates how to optimize change detection in Angular for applications involving Canvas interactivity.
+This code provides an introduction to using the [Fabric JS](http://fabricjs.com/) library with Angular.  It also illustrates how to optimize change detection in Angular for applications involving Canvas interactivity.
 
 Author:  Jim Armstrong - [The Algorithmist](https://www.linkedin.com/in/jimarmstrong/)
 
